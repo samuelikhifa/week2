@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: urlc:('img\IMG_2893~2.jpg') 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff; /* Ensuring text is readable on dark background */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form textarea {
+    margin: 0.5rem 0;
+    color: #fff; /* Ensuring form labels are readable */
+}
+
+form input, form textarea {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent input background */
+    color: #fff; /* Ensuring input text is readable */
+    border: none;
+    padding: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
